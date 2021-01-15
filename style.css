@@ -1,0 +1,135 @@
+
+*{
+
+}
+body{
+
+   font:18px/1.5 ariel, helvetica,sans-serif;
+   padding: 10px 10px 10px 10px;
+   margin: 20px 20px 20px 20px;
+   background-color: thistle;
+   line-height: 1.6em;
+   border: 15px gray;
+}
+
+
+.navbar {
+  max-height: 50px;
+}
+.navigation .navbar-brand {
+  color:thistle(255, 196, 0);
+  margin-left: 0px;
+  padding: inherit;
+  font-weight: bold;
+  background-color: pink (255, 255, 255);
+  font-family:  Helvetica, sans-serif;
+}
+.nav-title {
+  background-color:rgb(206, 142, 96);
+  font-size: 30px; 
+  background-size: auto;
+}
+
+
+.dropbtn {
+    background-color: violet;
+    color:black;
+    padding: 0px;
+    font-size: 16px;
+    border: blueviolet;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: papayawhip;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+
+
+  
+
+
+  
+.box1{
+    
+    position: left;
+    border: 5px gray;
+    border-width: 3px;
+    padding: 20px;
+    margin:20px;
+    
+    
+
+}
+.box2 {
+border:5px gray;
+    min-height: 50px;
+    padding: 5px;
+    margin: auto;
+    font-weight: 400;
+    color:black;
+
+     }
+.box3 {
+    border:3px solid gray ;
+    padding:20 px;
+    margin: 20px 0;
+}
+
+
+
+.container{
+    width: 80%;
+    margin:auto;
+
+ } 
+
+
+
+
+#images{
+    padding: 50px;
+    width:20x;
+    height:20px;
+    border-radius: 10%;
+    margin-top: -6px;
+    position:relative;
+
+}
+
+
+.maxtemp body{ 
+    font:15px/1.5 ariel, helvetica,sans-serif;
+   padding-inline-start: 50px;
+   margin: 50px 10px5px10px;
+   background-color: thistle;
+   line-height: 1.6em
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 15px;
+  }
+
+  table {
+    border-spacing: 5px;
+  } 

@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<HTML>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>landing page</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link><a href="index.html"></a>
+
+        <style>
+            
+            h2{text-align: center; color:violet; position: relative; background-color: antiquewhite; width:fit-content;}
+            h3{color:black; text-align: center; font-size: 30px;  position: relative; }
+               section1{text-align:center; text-indent:50px; background-color: antiquewhite;}
+               section2{image-orientation: from-image; align-items: right; box-sizing: 50px; }
+   
+              </style>
+
+     </head>
+ 
+      <body>
+       <div class="navbar">
+           <div class="nav-header">
+               <div class="nav-title">
+                   Latitude
+               </div>
+
+           </div>
+         </div>
+        
+              <div class="dropdown">
+                 <button class="dropbtn">plot</button>
+                 <div class="dropdown-content">
+                  <a href="max temp.html">max temperature</a>
+                  <a href="humidity.html">humidity</a>
+                  <a href="cloudiness.html">cloudiness</a>
+                  <a href="wind speed.html">wind speed</a>
+                 </div>
+                 </div>
+                
+                 <a href="comparisons.html" target="comparisons">comparison</a>
+                 <a href="data.html" target="data">data</a>
+      
+              
+              
+          
+           
+         
+          <hr>
+    
+    
+        
+    
+        
+         <h2>Summary: Latitude vs X </h2>
+         
+             <div class="image">
+             <img src="assets\images\Fig1.png" alt="city latitude", width="300" hieght="300" position= "fixed">
+             <div class="text">
+                This project is made to analyze the weather changes as
+                you get closer to the equator to accomplish this analysis,
+                we first pulled data from OpenWeatherMap API to assemble dataset on over 500 cities.
+            
+                After assembling the dataset, we used matplotlib to plot various
+                aspects of the weather vs. latitude.Factors we looked at included:
+                temperature, cloudiness, wind speed, and humidity.This site provides
+                the source data and vizualizations created as a part of the analysis,
+                as well as explanation and descriptions of any trends and correlations
+                witnessed.
+                </div>
+            </div>
+
+        
+        <hr>
+        
+            <div class="box3">
+             <div class="container">
+            
+             
+              <h3>visualizations</h3>
+              <hr>
+                
+                 <a href= "max temp.html">
+                 <img border="0" alt= "max temp" src="Fig1.png" width="300" height= "300"></a>
+                 
+                 <a href= "humidity.html">
+                 <img border="0" alt="humidity" src="Fig2.png" width="300" height="300"></a>
+               
+             
+                 <a href= "cloudiness.html">
+                 <img border="0" alt="cloudiness" src="Fig3.png" width="300" height="300"></a>
+
+                 <a href= "wind speed.html">
+                 <img border="0" alt="wind speed" src="Fig4.png" width="300" height="300"></a>
+                 
+             </div>
+             </div>
+            </div>
+     
+        
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            
+            
+        
+    
+    </body>
+    <br>
+
+   
+</HTML>
